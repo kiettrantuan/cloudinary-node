@@ -1,0 +1,20 @@
+{
+  "name": "cloudinary-node-ts",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "description": "Cloudinary Node.js TypeScript scripts for uploading media",
+  "author": "kietttran <kietttran.space@gmail.com> (https://kietttran.space)",
+  "dependencies": {
+    "cloudinary": "^2.5.0",
+    "dotenv": "^16.4.5"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "up:weather": "npx tsc && node dist/upload-weather-videos.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "typescript": "^5.6.2"
+  }
+}
